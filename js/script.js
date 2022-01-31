@@ -8,7 +8,7 @@ const getImage = async function () {
     const images = await res.json(); 
     selectRandomImage(images); 
 };
-    getImage();
+   
 
 
 const selectRandomImage = function(images) {
